@@ -1,26 +1,44 @@
 # Plug
 
-a wrapper around the native `fetch` api that i made for fun
+A wrapper for the fetch API that simplifies HTTP requests 
 
-right now it only supports GET requests
+i made this for fun. right now it only supports GET requests
 
 ---
 
-To use Plug, just add this script tag to your HTML:
+## Installation
 
+use npm: 
+```bash
+npm i the-plug
+```
+or cdn:
 ```html
 <script src="https://cdn.jsdelivr.net/gh/HeySkidee/plug/plug.js"></script>
 ```
+
 ---
 
-You can make a GET request like this:
+## Usage:
+
+### Example (express):
 
 ```javascript
-const response = await plug.get('https://jsonplaceholder.typicode.com/posts/1');
+const express = require('express')
+const app = express()
+
+const plug = require('the-plug')
+
+app.get('/', async (req, res)=>{
+    const response = await plug.get('https://jsonplaceholder.typicode.com/posts/1')
+
+    res.json(response)
+})
+
+app.listen(3000)
 ```
 
-### Example
-
+### Example (HTML):
 ```html
 <html>
 <head>

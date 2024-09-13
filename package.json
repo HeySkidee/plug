@@ -1,0 +1,25 @@
+{
+  "name": "the-plug",
+  "version": "1.0.1",
+  "description": "Plug is a wrapper for the fetch API that simplifies HTTP requests ",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/HeySkidee/plug.git"
+  },
+  "keywords": [
+    "plug",
+    "fetch",
+    "axios",
+    "fetch-api"
+  ],
+  "author": "Skidee",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/HeySkidee/plug/issues"
+  },
+  "homepage": "https://github.com/HeySkidee/plug#readme"
+}
