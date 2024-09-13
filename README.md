@@ -51,10 +51,10 @@ app.listen(3000)
 
     <script>
         async function getJoke() {
-            const res = await plug.get('https://official-joke-api.appspot.com/random_joke');
+            const joke = await plug.get('https://official-joke-api.appspot.com/random_joke');
 
-            document.querySelectorAll('p')[0].innerHTML = res.setup;
-            document.querySelectorAll('p')[1].innerHTML = res.punchline;
+            document.querySelectorAll('p')[0].innerHTML = joke.setup;
+            document.querySelectorAll('p')[1].innerHTML = joke.punchline;
         }
 
         getJoke();
