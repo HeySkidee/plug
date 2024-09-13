@@ -45,18 +45,19 @@ app.listen(3000)
     <script src="https://cdn.jsdelivr.net/gh/HeySkidee/plug/plug.js"></script>
 </head>
 <body>
-    <h3>Random Joke</h3>
+    <h2>Random Joke</h2>
+    <p></p>
     <p></p>
 
     <script>
-        async function getData() {
+        async function getJoke() {
             const res = await plug.get('https://official-joke-api.appspot.com/random_joke');
 
-            console.log(res);
-            document.querySelector('p').innerHTML = res.body;
+            document.querySelectorAll('p')[0].innerHTML = res.setup;
+            document.querySelectorAll('p')[1].innerHTML = res.punchline;
         }
 
-        getData();
+        getJoke();
     </script>
 </body>
 </html>
