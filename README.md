@@ -30,7 +30,7 @@ const app = express()
 const plug = require('the-plug')
 
 app.get('/', async (req, res)=>{
-    const response = await plug.get('https://jsonplaceholder.typicode.com/posts/1')
+    const response = await plug.get('https://official-joke-api.appspot.com/random_joke')
 
     res.json(response)
 })
@@ -45,11 +45,12 @@ app.listen(3000)
     <script src="https://cdn.jsdelivr.net/gh/HeySkidee/plug/plug.js"></script>
 </head>
 <body>
+    <h3>Random Joke</h3>
     <p></p>
 
     <script>
         async function getData() {
-            const res = await plug.get('https://jsonplaceholder.typicode.com/posts/1');
+            const res = await plug.get('https://official-joke-api.appspot.com/random_joke');
 
             console.log(res);
             document.querySelector('p').innerHTML = res.body;

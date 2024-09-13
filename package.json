@@ -1,8 +1,8 @@
 {
   "name": "the-plug",
-  "version": "1.0.1",
+  "version": "1.0.3",
   "description": "Plug is a wrapper for the fetch API that simplifies HTTP requests ",
-  "main": "index.js",
+  "main": "plug.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },

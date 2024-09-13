@@ -7,3 +7,5 @@ const plug = {
         })
     }
 }
+
+module.exports = plug
