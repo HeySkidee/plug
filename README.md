@@ -2,8 +2,6 @@
 
 A wrapper for the fetch API that simplifies HTTP requests 
 
-i made this for fun. right now it only supports GET requests
-
 ---
 
 ## Installation
