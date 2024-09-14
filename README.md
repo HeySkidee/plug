@@ -12,7 +12,7 @@ npm i the-plug
 ```
 or cdn:
 ```html
-<script src="https://cdn.jsdelivr.net/npm/the-plug@1.0.6/plug.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/the-plug@1.0.7/plug.js"></script>
 ```
 
 ---
@@ -40,7 +40,7 @@ app.listen(3000)
 ```html
 <html>
 <head>
-    <script src="https://cdn.jsdelivr.net/npm/the-plug@1.0.6/plug.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/the-plug@1.0.7/plug.js"></script>
 </head>
 <body>
     <h2>Random Joke</h2>
