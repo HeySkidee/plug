@@ -1,6 +1,6 @@
 {
   "name": "the-plug",
-  "version": "1.0.8",
+  "version": "1.0.9",
   "description": "Plug is a wrapper for the fetch API that simplifies HTTP requests ",
   "main": "plug.js",
   "scripts": {

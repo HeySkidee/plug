@@ -2,7 +2,7 @@
 
 A wrapper for the fetch API that simplifies HTTP requests 
 
-[![NPM Downloads](https://badgen.net/npm/dm/the-plug)](https://npmcharts.com/compare/the-plug?minimal=true)
+[![NPM Downloads](https://badgen.net/npm/dt/the-plug)](https://npmcharts.com/compare/the-plug?minimal=true)
 [![NPM Version](https://badgen.net/npm/v/the-plug)](https://npmjs.org/package/the-plug)
 
 ---
